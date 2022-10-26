@@ -13,7 +13,7 @@ API Reference
 
 In this section, you can learn more about how PyVista wraps different VTK mesh
 types and how you can leverage powerful 3D plotting and mesh analysis tools.
-Highlights of the API include:
+Highlights of the API that include:
 
 * Pythonic interface to VTK's Python bindings
 * Filtering/plotting tools built for interactivity (see :ref:`widgets`)
