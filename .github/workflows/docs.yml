@@ -156,7 +156,8 @@ jobs:
         run: |
           cp doc/README.md doc/_build/html/
           cp doc/ads.txt doc/_build/html/
-
+          cp doc/README.md .
+          cp doc/ads.txt .
       - name: Deploy on main
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
