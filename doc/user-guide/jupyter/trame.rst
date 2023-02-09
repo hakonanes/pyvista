@@ -71,7 +71,7 @@ or passing ``jupyter_backend`` on the :func:`show() <pyvista.Plotter.show>` call
 Installation
 ++++++++++++
 
-Using pip, you can set up your jupyter environment with:
+Using pip, you can set up your Jupyter environment with:
 
 .. code::
 
@@ -99,8 +99,8 @@ through Jupyter.
 To configure PyVista and Trame to work with ``jupyter-server-proxy`` in a remote
 environment, you will need to set some options on the global PyVista theme:
 
-* :py:attr:`pyvista.themes.DefualtTheme.server_proxy_enabled`
-* :py:attr:`pyvista.themes.DefualtTheme.server_proxy_prefix`
+* :py:attr:`pyvista.themes.DefaultTheme.server_proxy_enabled`
+* :py:attr:`pyvista.themes.DefaultTheme.server_proxy_prefix`
 
 The default for ``server_proxy_prefix`` is ``'/proxy/'`` and this should be sufficient
 for most remote Jupyter environment and use within Docker.
